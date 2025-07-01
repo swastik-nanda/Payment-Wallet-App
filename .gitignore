@@ -1,3 +1,35 @@
-node_modules
+# Top-level node_modules
+node_modules/
+tmp/
 .env
-tmp
+
+# Frontend
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.next/
+frontend/dist/
+frontend/tmp/
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/tmp/
+backend/dist/
+
+# OS/Editor/System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Optional npm/yarn files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
